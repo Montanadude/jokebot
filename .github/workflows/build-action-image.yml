@@ -27,8 +27,8 @@ jobs:
     env:
       RASA_SDK_VERS: 2.1.2
       DOCKER_IMAGE_TAG: ${{ github.event.inputs.image-tag }}
-      DOCKERHUB_USERNAME: stephens
-      DOCKER_IMAGE_NAME: stephens/jokebot
+      DOCKERHUB_USERNAME: montanadude
+      DOCKER_IMAGE_NAME: montanadude/jokebot
       REQUIREMENTS_FILE: 'actions/requirements.txt'
 
     steps:
@@ -53,8 +53,8 @@ jobs:
     env:
       RASA_SDK_VERS: ${{ github.event.inputs.sdk-version }}
       DOCKER_IMAGE_TAG: ${{ github.event.inputs.image-tag }}
-      DOCKERHUB_USERNAME: stephens
-      DOCKER_IMAGE_NAME: stephens/jokebot
+      DOCKERHUB_USERNAME: montanadude
+      DOCKER_IMAGE_NAME: montanadude/jokebot
       REQUIREMENTS_FILE: 'actions/requirements.txt'
 
     steps:
